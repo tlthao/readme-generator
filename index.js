@@ -28,22 +28,22 @@ const questions = () => {
     {
       type: "input",
       name: "usage",
-      message: "Please provide usage information",
+      message: "Please provide usage information.",
     },
     {
       type: "input",
       name: "contribution",
-      message: "Please provide contribution guidelines",
+      message: "Please provide contribution guidelines.",
     },
     {
       type: "input",
       name: "test",
-      message: "Please provide test instructions",
+      message: "Please provide test instructions.",
     },
     {
       type: "list",
       name: "license",
-      message: "Please select license",
+      message: "Please select license:",
       choices: [
         "No License",
         "Apache",
@@ -61,12 +61,12 @@ const questions = () => {
     {
       type: "input",
       name: "github",
-      message: "Please enter github username.",
+      message: "Please provide GitHub username.",
     },
     {
       type: "input",
       name: "email",
-      message: "Please enter email address.",
+      message: "Please provide email address.",
     },
   ]);
 };
